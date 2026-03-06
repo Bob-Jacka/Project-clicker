@@ -1,6 +1,6 @@
 # Project-clicker
 
-QT based clicker game ror dummies;
+QT based clicker game for dummy dummies;
 
 ## What is it?
 
