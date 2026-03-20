@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.31)
-project(untitled)
+project(Clicker)
 
-set(CMAKE_CXX_STANDARD 20)
+add_compile_options(-Wall -Wextra)
+
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
@@ -15,13 +17,22 @@ find_package(Qt6 COMPONENTS
         Core
         Gui
         Widgets
-        REQUIRED)
+        UiTools
+        REQUIRED
+)
 
-add_executable(untitled main.cpp)
-target_link_libraries(untitled
+add_executable(Clicker
+        main.cpp
+
+        libio.cppm
+
+        main_window_design.ui
+)
+target_link_libraries(Clicker
         Qt::Core
         Qt::Gui
         Qt::Widgets
+        Qt::UiTools
 )
 
 if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
@@ -52,3 +63,9 @@ if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
                 "$<TARGET_FILE_DIR:${PROJECT_NAME}>")
     endforeach (QT_LIB)
 endif ()
+
+target_sources(Clicker
+        PUBLIC
+        FILE_SET all_my_modules TYPE CXX_MODULES FILES
+        libio.cppm
+)
