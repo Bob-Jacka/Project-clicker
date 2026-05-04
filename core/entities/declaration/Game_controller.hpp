@@ -6,4 +6,4 @@ namespace Clicker {
     };
 }
 
-#endif //GAME_CONTROLLER_HPP
+#endif
