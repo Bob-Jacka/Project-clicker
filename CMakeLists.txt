@@ -21,8 +21,21 @@ find_package(Qt6 COMPONENTS
         REQUIRED
 )
 
-add_executable(Clicker main.cpp
-        core/entities/interface/ui.hpp)
+add_subdirectory(core)
+
+add_executable(Clicker
+        main.cpp
+
+        core/entities/declaration/Game_controller.hpp
+        core/entities/realization/Game_controller.cpp
+
+        core/entities/realization/File_controller.cpp
+        core/entities/declaration/File_controller.hpp
+
+        core/exceptions/File_controller_exception.hpp
+        core/exceptions/Base_exception.hpp
+)
+
 target_link_libraries(Clicker
         Qt::Core
         Qt::Gui

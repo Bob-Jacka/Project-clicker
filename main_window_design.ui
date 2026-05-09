@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>920</width>
-    <height>670</height>
+    <height>695</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -19,7 +19,7 @@
   <property name="minimumSize">
    <size>
     <width>920</width>
-    <height>670</height>
+    <height>695</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Clicker</string>
   </property>
   <property name="dockNestingEnabled">
    <bool>false</bool>
@@ -52,7 +52,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>896</width>
+      <width>901</width>
       <height>766</height>
      </rect>
     </property>
@@ -141,7 +141,7 @@
              <item>
               <layout class="QVBoxLayout" name="how_many_receive_8">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_16"/>
+                <widget class="QLCDNumber" name="next_lcd_1"/>
                </item>
                <item>
                 <widget class="QLabel" name="label_9">
@@ -162,7 +162,7 @@
              <item>
               <layout class="QVBoxLayout" name="next_buy_count_8">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_17"/>
+                <widget class="QLCDNumber" name="proceed_lcd_1"/>
                </item>
                <item>
                 <widget class="QLabel" name="count_8">
@@ -246,7 +246,7 @@
              <item>
               <layout class="QVBoxLayout" name="how_many_receive_9">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_18"/>
+                <widget class="QLCDNumber" name="next_lcd_2"/>
                </item>
                <item>
                 <widget class="QLabel" name="label_10">
@@ -267,7 +267,7 @@
              <item>
               <layout class="QVBoxLayout" name="next_buy_count_9">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_19"/>
+                <widget class="QLCDNumber" name="proceed_lcd_2"/>
                </item>
                <item>
                 <widget class="QLabel" name="count_9">
@@ -351,7 +351,7 @@
              <item>
               <layout class="QVBoxLayout" name="how_many_receive_4">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_7"/>
+                <widget class="QLCDNumber" name="next_lcd_3"/>
                </item>
                <item>
                 <widget class="QLabel" name="label_5">
@@ -372,7 +372,7 @@
              <item>
               <layout class="QVBoxLayout" name="next_buy_count_4">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_8"/>
+                <widget class="QLCDNumber" name="proceed_lcd_3"/>
                </item>
                <item>
                 <widget class="QLabel" name="count_4">
@@ -476,7 +476,7 @@
              <item>
               <layout class="QVBoxLayout" name="how_many_receive_2">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_3"/>
+                <widget class="QLCDNumber" name="next_lcd_4"/>
                </item>
                <item>
                 <widget class="QLabel" name="label_3">
@@ -497,7 +497,7 @@
              <item>
               <layout class="QVBoxLayout" name="next_buy_count_2">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_4"/>
+                <widget class="QLCDNumber" name="proceed_lcd_4"/>
                </item>
                <item>
                 <widget class="QLabel" name="count_2">
@@ -590,7 +590,7 @@
              <item>
               <layout class="QVBoxLayout" name="how_many_receive_6">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_11"/>
+                <widget class="QLCDNumber" name="next_lcd_5"/>
                </item>
                <item>
                 <widget class="QLabel" name="label_7">
@@ -611,7 +611,7 @@
              <item>
               <layout class="QVBoxLayout" name="next_buy_count_6">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_12"/>
+                <widget class="QLCDNumber" name="proceed_lcd_5"/>
                </item>
                <item>
                 <widget class="QLabel" name="count_6">
@@ -695,7 +695,7 @@
              <item>
               <layout class="QVBoxLayout" name="how_many_receive_5">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_9"/>
+                <widget class="QLCDNumber" name="next_lcd_6"/>
                </item>
                <item>
                 <widget class="QLabel" name="label_6">
@@ -716,7 +716,7 @@
              <item>
               <layout class="QVBoxLayout" name="next_buy_count_5">
                <item>
-                <widget class="QLCDNumber" name="lcdNumber_10"/>
+                <widget class="QLCDNumber" name="proceed_lcd_6"/>
                </item>
                <item>
                 <widget class="QLabel" name="count_5">
@@ -799,7 +799,7 @@
         <number>0</number>
        </property>
        <item row="4" column="1">
-        <widget class="QPushButton" name="Sellgalaxy_btn">
+        <widget class="QPushButton" name="sellgalaxy_btn">
          <property name="enabled">
           <bool>true</bool>
          </property>
@@ -824,14 +824,14 @@
         </widget>
        </item>
        <item row="6" column="1">
-        <widget class="QPushButton" name="Save_btn">
+        <widget class="QPushButton" name="save_btn">
          <property name="text">
           <string>Save progress</string>
          </property>
         </widget>
        </item>
        <item row="7" column="1">
-        <widget class="QPushButton" name="Settings_btn">
+        <widget class="QPushButton" name="settings_btn">
          <property name="layoutDirection">
           <enum>Qt::LayoutDirection::LeftToRight</enum>
          </property>
@@ -841,14 +841,14 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="office_workers_btn">
          <property name="text">
           <string>Office workers</string>
          </property>
         </widget>
        </item>
        <item row="8" column="1">
-        <widget class="QPushButton" name="pushButton_5">
+        <widget class="QPushButton" name="quit_btn">
          <property name="text">
           <string>Quit game</string>
          </property>
@@ -910,14 +910,14 @@
         </layout>
        </item>
        <item row="2" column="1">
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="about_btn">
          <property name="text">
           <string>About game</string>
          </property>
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="achievements_btn">
          <property name="text">
           <string>Achivements</string>
          </property>
@@ -947,7 +947,7 @@
      <x>0</x>
      <y>0</y>
      <width>920</width>
-     <height>22</height>
+     <height>23</height>
     </rect>
    </property>
    <property name="defaultUp">

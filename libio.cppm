@@ -2,7 +2,7 @@ module;
 
 /**
  Custom library for actions in Netology C++ course and later for more serious projects.
- Version - 1.25.1
+ Version - 1.25.2
  This library could be a module, but yes, later rewritten to module with LIBIO_EXPERIMENTAL functions.
  Some kind of Boost library for poor people.
 
@@ -677,7 +677,13 @@ export namespace array {
     }
 
     template<typename T>
-    T *create_1d_array(int);
+    T *create_1d_array(int rows) {
+        const auto dyn_array = new T[rows];
+        for (int i = 0; i < rows; ++i) {
+            dyn_array[i] = 0;
+        }
+        return dyn_array;
+    }
 
     template<>
     int *create_1d_array(const int rows) {
