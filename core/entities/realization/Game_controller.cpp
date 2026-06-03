@@ -25,19 +25,19 @@ void Clicker::Game_controller::init_game() {
  * Exit from game, check for save file
  */
 void Clicker::Game_controller::exit_game() {
-    libio::output::println("Exit game");
+    libio::output::println("Exit game"); //just print message to logs
 }
 
 void Clicker::Game_controller::buy() {
-
+    //
 }
 
 void Clicker::Game_controller::sell_galaxy() {
-
+    //
 }
 
 Clicker::Menus Clicker::Game_controller::get_menus() {
-    return {};
+    return menus;
 }
 
 double Clicker::Office_worker::get_up_coef() {

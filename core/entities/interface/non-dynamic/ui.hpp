@@ -1,13 +1,13 @@
 /********************************************************************************
-** Form generated from reading UI file 'main_window_designSPESIl.ui'
+** Form generated from reading UI file 'main_window_designVptEOt.ui'
 **
-** Created by: Qt User Interface Compiler version 6.8.0
+** Created by: Qt User Interface Compiler version 6.10.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
 
-#ifndef MAIN_WINDOW_DESIGNSPESIL_H
-#define MAIN_WINDOW_DESIGNSPESIL_H
+#ifndef MAIN_WINDOW_DESIGNVPTEOT_H
+#define MAIN_WINDOW_DESIGNVPTEOT_H
 
 #include <QtCore/QVariant>
 #include <QtGui/QAction>
@@ -30,9 +30,7 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_MainWindow : public QWidget {
-Q_OBJECT
-
+class Ui_MainWindow {
 public:
     QWidget *centralwidget;
     QWidget *gridLayoutWidget;
@@ -43,11 +41,11 @@ public:
     QLabel *first_elem_name;
     QHBoxLayout *numbers_8;
     QVBoxLayout *how_many_receive_8;
-    QLCDNumber *lcdNumber_16;
+    QLCDNumber *next_lcd_1;
     QLabel *label_9;
     QFrame *line_9;
     QVBoxLayout *next_buy_count_8;
-    QLCDNumber *lcdNumber_17;
+    QLCDNumber *proceed_lcd_1;
     QLabel *count_8;
     QHBoxLayout *buttons_6;
     QPushButton *buy_1;
@@ -57,11 +55,11 @@ public:
     QLabel *second_elem_name;
     QHBoxLayout *numbers_9;
     QVBoxLayout *how_many_receive_9;
-    QLCDNumber *lcdNumber_18;
+    QLCDNumber *next_lcd_2;
     QLabel *label_10;
     QFrame *line_10;
     QVBoxLayout *next_buy_count_9;
-    QLCDNumber *lcdNumber_19;
+    QLCDNumber *proceed_lcd_2;
     QLabel *count_9;
     QHBoxLayout *buttons_7;
     QPushButton *buy_2;
@@ -71,11 +69,11 @@ public:
     QLabel *third_elem_name;
     QHBoxLayout *numbers_4;
     QVBoxLayout *how_many_receive_4;
-    QLCDNumber *lcdNumber_7;
+    QLCDNumber *next_lcd_3;
     QLabel *label_5;
     QFrame *line_4;
     QVBoxLayout *next_buy_count_4;
-    QLCDNumber *lcdNumber_8;
+    QLCDNumber *proceed_lcd_3;
     QLabel *count_4;
     QHBoxLayout *buttons_5;
     QPushButton *buy_3;
@@ -87,11 +85,11 @@ public:
     QLabel *fourth_elem_name;
     QHBoxLayout *numbers_2;
     QVBoxLayout *how_many_receive_2;
-    QLCDNumber *lcdNumber_3;
+    QLCDNumber *next_lcd_4;
     QLabel *label_3;
     QFrame *line_2;
     QVBoxLayout *next_buy_count_2;
-    QLCDNumber *lcdNumber_4;
+    QLCDNumber *proceed_lcd_4;
     QLabel *count_2;
     QHBoxLayout *buttons_4;
     QPushButton *buy_4;
@@ -101,11 +99,11 @@ public:
     QLabel *fifth_elem_name;
     QHBoxLayout *numbers_6;
     QVBoxLayout *how_many_receive_6;
-    QLCDNumber *lcdNumber_11;
+    QLCDNumber *next_lcd_5;
     QLabel *label_7;
     QFrame *line_6;
     QVBoxLayout *next_buy_count_6;
-    QLCDNumber *lcdNumber_12;
+    QLCDNumber *proceed_lcd_5;
     QLabel *count_6;
     QHBoxLayout *buttons_3;
     QPushButton *buy_5;
@@ -115,28 +113,28 @@ public:
     QLabel *sixth_elem_name;
     QHBoxLayout *numbers_5;
     QVBoxLayout *how_many_receive_5;
-    QLCDNumber *lcdNumber_9;
+    QLCDNumber *next_lcd_6;
     QLabel *label_6;
     QFrame *line_5;
     QVBoxLayout *next_buy_count_5;
-    QLCDNumber *lcdNumber_10;
+    QLCDNumber *proceed_lcd_6;
     QLabel *count_5;
     QHBoxLayout *buttons_2;
     QPushButton *buy_6;
     QPushButton *proceed_6;
     QCheckBox *is_auto_6;
     QFormLayout *Footer_menu;
-    QPushButton *Sellgalaxy_btn;
-    QPushButton *Save_btn;
-    QPushButton *Settings_btn;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_5;
+    QPushButton *sellgalaxy_btn;
+    QPushButton *save_btn;
+    QPushButton *settings_btn;
+    QPushButton *Office_workers_btn;
+    QPushButton *quit_btn;
     QHBoxLayout *Current_balance;
     QLCDNumber *Balance_;
     QSpacerItem *verticalSpacer;
     QLabel *label;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton;
+    QPushButton *about_btn;
+    QPushButton *achievements_btn;
     QSpacerItem *horizontalSpacer;
     QMenuBar *menubar;
     QMenu *menuMenu;
@@ -146,13 +144,13 @@ public:
     void setupUi(QMainWindow *MainWindow) {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(920, 670);
+        MainWindow->resize(920, 695);
         QSizePolicy sizePolicy(QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(MainWindow->sizePolicy().hasHeightForWidth());
         MainWindow->setSizePolicy(sizePolicy);
-        MainWindow->setMinimumSize(QSize(920, 670));
+        MainWindow->setMinimumSize(QSize(920, 695));
         MainWindow->setMaximumSize(QSize(920, 670));
         MainWindow->setDockNestingEnabled(false);
         centralwidget = new QWidget(MainWindow);
@@ -162,7 +160,7 @@ public:
         centralwidget->setMinimumSize(QSize(600, 600));
         gridLayoutWidget = new QWidget(centralwidget);
         gridLayoutWidget->setObjectName("gridLayoutWidget");
-        gridLayoutWidget->setGeometry(QRect(10, 10, 896, 766));
+        gridLayoutWidget->setGeometry(QRect(10, 10, 901, 766));
         Mainlayout = new QGridLayout(gridLayoutWidget);
         Mainlayout->setObjectName("Mainlayout");
         Mainlayout->setSizeConstraint(QLayout::SizeConstraint::SetNoConstraint);
@@ -200,10 +198,10 @@ public:
         numbers_8->setObjectName("numbers_8");
         how_many_receive_8 = new QVBoxLayout();
         how_many_receive_8->setObjectName("how_many_receive_8");
-        lcdNumber_16 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_16->setObjectName("lcdNumber_16");
+        next_lcd_1 = new QLCDNumber(gridLayoutWidget);
+        next_lcd_1->setObjectName("next_lcd_1");
 
-        how_many_receive_8->addWidget(lcdNumber_16);
+        how_many_receive_8->addWidget(next_lcd_1);
 
         label_9 = new QLabel(gridLayoutWidget);
         label_9->setObjectName("label_9");
@@ -222,10 +220,10 @@ public:
 
         next_buy_count_8 = new QVBoxLayout();
         next_buy_count_8->setObjectName("next_buy_count_8");
-        lcdNumber_17 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_17->setObjectName("lcdNumber_17");
+        proceed_lcd_1 = new QLCDNumber(gridLayoutWidget);
+        proceed_lcd_1->setObjectName("proceed_lcd_1");
 
-        next_buy_count_8->addWidget(lcdNumber_17);
+        next_buy_count_8->addWidget(proceed_lcd_1);
 
         count_8 = new QLabel(gridLayoutWidget);
         count_8->setObjectName("count_8");
@@ -281,10 +279,10 @@ public:
         numbers_9->setObjectName("numbers_9");
         how_many_receive_9 = new QVBoxLayout();
         how_many_receive_9->setObjectName("how_many_receive_9");
-        lcdNumber_18 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_18->setObjectName("lcdNumber_18");
+        next_lcd_2 = new QLCDNumber(gridLayoutWidget);
+        next_lcd_2->setObjectName("next_lcd_2");
 
-        how_many_receive_9->addWidget(lcdNumber_18);
+        how_many_receive_9->addWidget(next_lcd_2);
 
         label_10 = new QLabel(gridLayoutWidget);
         label_10->setObjectName("label_10");
@@ -303,10 +301,10 @@ public:
 
         next_buy_count_9 = new QVBoxLayout();
         next_buy_count_9->setObjectName("next_buy_count_9");
-        lcdNumber_19 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_19->setObjectName("lcdNumber_19");
+        proceed_lcd_2 = new QLCDNumber(gridLayoutWidget);
+        proceed_lcd_2->setObjectName("proceed_lcd_2");
 
-        next_buy_count_9->addWidget(lcdNumber_19);
+        next_buy_count_9->addWidget(proceed_lcd_2);
 
         count_9 = new QLabel(gridLayoutWidget);
         count_9->setObjectName("count_9");
@@ -362,10 +360,10 @@ public:
         numbers_4->setObjectName("numbers_4");
         how_many_receive_4 = new QVBoxLayout();
         how_many_receive_4->setObjectName("how_many_receive_4");
-        lcdNumber_7 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_7->setObjectName("lcdNumber_7");
+        next_lcd_3 = new QLCDNumber(gridLayoutWidget);
+        next_lcd_3->setObjectName("next_lcd_3");
 
-        how_many_receive_4->addWidget(lcdNumber_7);
+        how_many_receive_4->addWidget(next_lcd_3);
 
         label_5 = new QLabel(gridLayoutWidget);
         label_5->setObjectName("label_5");
@@ -384,10 +382,10 @@ public:
 
         next_buy_count_4 = new QVBoxLayout();
         next_buy_count_4->setObjectName("next_buy_count_4");
-        lcdNumber_8 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_8->setObjectName("lcdNumber_8");
+        proceed_lcd_3 = new QLCDNumber(gridLayoutWidget);
+        proceed_lcd_3->setObjectName("proceed_lcd_3");
 
-        next_buy_count_4->addWidget(lcdNumber_8);
+        next_buy_count_4->addWidget(proceed_lcd_3);
 
         count_4 = new QLabel(gridLayoutWidget);
         count_4->setObjectName("count_4");
@@ -458,10 +456,10 @@ public:
         numbers_2->setObjectName("numbers_2");
         how_many_receive_2 = new QVBoxLayout();
         how_many_receive_2->setObjectName("how_many_receive_2");
-        lcdNumber_3 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_3->setObjectName("lcdNumber_3");
+        next_lcd_4 = new QLCDNumber(gridLayoutWidget);
+        next_lcd_4->setObjectName("next_lcd_4");
 
-        how_many_receive_2->addWidget(lcdNumber_3);
+        how_many_receive_2->addWidget(next_lcd_4);
 
         label_3 = new QLabel(gridLayoutWidget);
         label_3->setObjectName("label_3");
@@ -480,10 +478,10 @@ public:
 
         next_buy_count_2 = new QVBoxLayout();
         next_buy_count_2->setObjectName("next_buy_count_2");
-        lcdNumber_4 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_4->setObjectName("lcdNumber_4");
+        proceed_lcd_4 = new QLCDNumber(gridLayoutWidget);
+        proceed_lcd_4->setObjectName("proceed_lcd_4");
 
-        next_buy_count_2->addWidget(lcdNumber_4);
+        next_buy_count_2->addWidget(proceed_lcd_4);
 
         count_2 = new QLabel(gridLayoutWidget);
         count_2->setObjectName("count_2");
@@ -542,10 +540,10 @@ public:
         numbers_6->setObjectName("numbers_6");
         how_many_receive_6 = new QVBoxLayout();
         how_many_receive_6->setObjectName("how_many_receive_6");
-        lcdNumber_11 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_11->setObjectName("lcdNumber_11");
+        next_lcd_5 = new QLCDNumber(gridLayoutWidget);
+        next_lcd_5->setObjectName("next_lcd_5");
 
-        how_many_receive_6->addWidget(lcdNumber_11);
+        how_many_receive_6->addWidget(next_lcd_5);
 
         label_7 = new QLabel(gridLayoutWidget);
         label_7->setObjectName("label_7");
@@ -564,10 +562,10 @@ public:
 
         next_buy_count_6 = new QVBoxLayout();
         next_buy_count_6->setObjectName("next_buy_count_6");
-        lcdNumber_12 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_12->setObjectName("lcdNumber_12");
+        proceed_lcd_5 = new QLCDNumber(gridLayoutWidget);
+        proceed_lcd_5->setObjectName("proceed_lcd_5");
 
-        next_buy_count_6->addWidget(lcdNumber_12);
+        next_buy_count_6->addWidget(proceed_lcd_5);
 
         count_6 = new QLabel(gridLayoutWidget);
         count_6->setObjectName("count_6");
@@ -623,10 +621,10 @@ public:
         numbers_5->setObjectName("numbers_5");
         how_many_receive_5 = new QVBoxLayout();
         how_many_receive_5->setObjectName("how_many_receive_5");
-        lcdNumber_9 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_9->setObjectName("lcdNumber_9");
+        next_lcd_6 = new QLCDNumber(gridLayoutWidget);
+        next_lcd_6->setObjectName("next_lcd_6");
 
-        how_many_receive_5->addWidget(lcdNumber_9);
+        how_many_receive_5->addWidget(next_lcd_6);
 
         label_6 = new QLabel(gridLayoutWidget);
         label_6->setObjectName("label_6");
@@ -645,10 +643,10 @@ public:
 
         next_buy_count_5 = new QVBoxLayout();
         next_buy_count_5->setObjectName("next_buy_count_5");
-        lcdNumber_10 = new QLCDNumber(gridLayoutWidget);
-        lcdNumber_10->setObjectName("lcdNumber_10");
+        proceed_lcd_6 = new QLCDNumber(gridLayoutWidget);
+        proceed_lcd_6->setObjectName("proceed_lcd_6");
 
-        next_buy_count_5->addWidget(lcdNumber_10);
+        next_buy_count_5->addWidget(proceed_lcd_6);
 
         count_5 = new QLabel(gridLayoutWidget);
         count_5->setObjectName("count_5");
@@ -701,39 +699,39 @@ public:
         Footer_menu->setHorizontalSpacing(0);
         Footer_menu->setVerticalSpacing(0);
         Footer_menu->setContentsMargins(0, 0, 0, 0);
-        Sellgalaxy_btn = new QPushButton(gridLayoutWidget);
-        Sellgalaxy_btn->setObjectName("Sellgalaxy_btn");
-        Sellgalaxy_btn->setEnabled(true);
+        sellgalaxy_btn = new QPushButton(gridLayoutWidget);
+        sellgalaxy_btn->setObjectName("sellgalaxy_btn");
+        sellgalaxy_btn->setEnabled(true);
         QSizePolicy sizePolicy2(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Fixed);
         sizePolicy2.setHorizontalStretch(0);
         sizePolicy2.setVerticalStretch(0);
-        sizePolicy2.setHeightForWidth(Sellgalaxy_btn->sizePolicy().hasHeightForWidth());
-        Sellgalaxy_btn->setSizePolicy(sizePolicy2);
-        Sellgalaxy_btn->setMaximumSize(QSize(16777215, 16777215));
-        Sellgalaxy_btn->setAcceptDrops(false);
+        sizePolicy2.setHeightForWidth(sellgalaxy_btn->sizePolicy().hasHeightForWidth());
+        sellgalaxy_btn->setSizePolicy(sizePolicy2);
+        sellgalaxy_btn->setMaximumSize(QSize(16777215, 16777215));
+        sellgalaxy_btn->setAcceptDrops(false);
 
-        Footer_menu->setWidget(4, QFormLayout::FieldRole, Sellgalaxy_btn);
+        Footer_menu->setWidget(4, QFormLayout::ItemRole::FieldRole, sellgalaxy_btn);
 
-        Save_btn = new QPushButton(gridLayoutWidget);
-        Save_btn->setObjectName("Save_btn");
+        save_btn = new QPushButton(gridLayoutWidget);
+        save_btn->setObjectName("save_btn");
 
-        Footer_menu->setWidget(6, QFormLayout::FieldRole, Save_btn);
+        Footer_menu->setWidget(6, QFormLayout::ItemRole::FieldRole, save_btn);
 
-        Settings_btn = new QPushButton(gridLayoutWidget);
-        Settings_btn->setObjectName("Settings_btn");
-        Settings_btn->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
+        settings_btn = new QPushButton(gridLayoutWidget);
+        settings_btn->setObjectName("settings_btn");
+        settings_btn->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
 
-        Footer_menu->setWidget(7, QFormLayout::FieldRole, Settings_btn);
+        Footer_menu->setWidget(7, QFormLayout::ItemRole::FieldRole, settings_btn);
 
-        pushButton_2 = new QPushButton(gridLayoutWidget);
-        pushButton_2->setObjectName("pushButton_2");
+        Office_workers_btn = new QPushButton(gridLayoutWidget);
+        Office_workers_btn->setObjectName("Office_workers_btn");
 
-        Footer_menu->setWidget(3, QFormLayout::FieldRole, pushButton_2);
+        Footer_menu->setWidget(3, QFormLayout::ItemRole::FieldRole, Office_workers_btn);
 
-        pushButton_5 = new QPushButton(gridLayoutWidget);
-        pushButton_5->setObjectName("pushButton_5");
+        quit_btn = new QPushButton(gridLayoutWidget);
+        quit_btn->setObjectName("quit_btn");
 
-        Footer_menu->setWidget(8, QFormLayout::FieldRole, pushButton_5);
+        Footer_menu->setWidget(8, QFormLayout::ItemRole::FieldRole, quit_btn);
 
         Current_balance = new QHBoxLayout();
         Current_balance->setSpacing(0);
@@ -760,17 +758,19 @@ public:
 
         Current_balance->addWidget(label);
 
-        Footer_menu->setLayout(0, QFormLayout::SpanningRole, Current_balance);
 
-        pushButton_3 = new QPushButton(gridLayoutWidget);
-        pushButton_3->setObjectName("pushButton_3");
+        Footer_menu->setLayout(0, QFormLayout::ItemRole::SpanningRole, Current_balance);
 
-        Footer_menu->setWidget(2, QFormLayout::FieldRole, pushButton_3);
+        about_btn = new QPushButton(gridLayoutWidget);
+        about_btn->setObjectName("about_btn");
 
-        pushButton = new QPushButton(gridLayoutWidget);
-        pushButton->setObjectName("pushButton");
+        Footer_menu->setWidget(2, QFormLayout::ItemRole::FieldRole, about_btn);
 
-        Footer_menu->setWidget(1, QFormLayout::FieldRole, pushButton);
+        achievements_btn = new QPushButton(gridLayoutWidget);
+        achievements_btn->setObjectName("achievements_btn");
+
+        Footer_menu->setWidget(1, QFormLayout::ItemRole::FieldRole, achievements_btn);
+
 
         Mainlayout->addLayout(Footer_menu, 3, 0, 1, 1);
 
@@ -781,7 +781,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 920, 22));
+        menubar->setGeometry(QRect(0, 0, 920, 23));
         menubar->setDefaultUp(false);
         menuMenu = new QMenu(menubar);
         menuMenu->setObjectName("menuMenu");
@@ -801,7 +801,7 @@ public:
     } // setupUi
 
     void retranslateUi(QMainWindow *MainWindow) {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Clicker", nullptr));
         first_elem_name->setText(QCoreApplication::translate("MainWindow", "First element", nullptr));
         label_9->setText(QCoreApplication::translate("MainWindow", "Next upgrade cost", nullptr));
         count_8->setText(QCoreApplication::translate("MainWindow", "Proceed count", nullptr));
@@ -838,24 +838,25 @@ public:
         buy_6->setText(QCoreApplication::translate("MainWindow", "Buy", nullptr));
         proceed_6->setText(QCoreApplication::translate("MainWindow", "Proceed", nullptr));
         is_auto_6->setText(QCoreApplication::translate("MainWindow", "is auto", nullptr));
-        Sellgalaxy_btn->setText(QCoreApplication::translate("MainWindow", "Sell galaxy", nullptr));
-        Save_btn->setText(QCoreApplication::translate("MainWindow", "Save progress", nullptr));
-        Settings_btn->setText(QCoreApplication::translate("MainWindow", "Settings", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Office workers", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("MainWindow", "Quit game", nullptr));
+        sellgalaxy_btn->setText(QCoreApplication::translate("MainWindow", "Sell galaxy", nullptr));
+        save_btn->setText(QCoreApplication::translate("MainWindow", "Save progress", nullptr));
+        settings_btn->setText(QCoreApplication::translate("MainWindow", "Settings", nullptr));
+        Office_workers_btn->setText(QCoreApplication::translate("MainWindow", "Office workers", nullptr));
+        quit_btn->setText(QCoreApplication::translate("MainWindow", "Quit game", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Balance", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("MainWindow", "About game", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "Achivements", nullptr));
+        about_btn->setText(QCoreApplication::translate("MainWindow", "About game", nullptr));
+        achievements_btn->setText(QCoreApplication::translate("MainWindow", "Achivements", nullptr));
         menuMenu->setTitle(QCoreApplication::translate("MainWindow", "Save", nullptr));
         menuQuit->setTitle(QCoreApplication::translate("MainWindow", "Quit", nullptr));
     } // retranslateUi
+
 };
 
 namespace Ui {
-    class MainWindow final : public Ui_MainWindow {
+    class MainWindow : public Ui_MainWindow {
     };
 } // namespace Ui
 
-
 QT_END_NAMESPACE
-#endif
+
+#endif // MAIN_WINDOW_DESIGNVPTEOT_H
